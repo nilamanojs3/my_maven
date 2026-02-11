@@ -21,7 +21,7 @@ public class SampleClass implements InterfaceSample
 		ob.add();//interface method
 		ob.display();//interface method
 		ob.print();//this class method
-		System.out.println(ob.a);//variable from interface
+		System.out.println(InterfaceSample.a);//variable from interface
 		System.out.println("**************");
 		
 		//InterfaceSample  ob1=new InterfaceSample ();//There is no constructor for interface so we cannot instantiate the instantiate
@@ -29,7 +29,7 @@ public class SampleClass implements InterfaceSample
 		ob1.add();
 		ob1.display();
 		//ob1.print();//we cannot call the method from class
-		System.out.println(ob1.a);
+		System.out.println(InterfaceSample.a);
 		
 	}
 

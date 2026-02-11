@@ -23,13 +23,13 @@ public class ShapeClass implements InterfaceShape
 		ob.shape();
 		ob.area();
 		ob.draw();
-		System.out.println(ob.length);
+		System.out.println(InterfaceShape.length);
 		System.out.println("***********************");
 		
 		InterfaceShape ob1=new ShapeClass();
 		ob1.area();
 		ob1.draw();
-		System.out.println(ob1.breadth);
+		System.out.println(InterfaceShape.breadth);
 		
 
 	}
