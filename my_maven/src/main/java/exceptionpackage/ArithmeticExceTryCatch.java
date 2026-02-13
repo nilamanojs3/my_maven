@@ -13,10 +13,15 @@ public class ArithmeticExceTryCatch
     	System.out.println(b);
     	}
     	
-    catch(Exception e)//handling the exception by using catch block
+    	catch(Exception e)//handling the exception by using catch block
     	{
     	System.out.println("Exception Handled.");
     	System.out.println(e);
+    	}
+    	                                                                                   
+    	finally
+    	{
+    	System.out.println("Finally Block");//this block will execute anyway .doesn't matter whether the exception handled or not.Used to execute important blocks
     	}
     }
 	public static void main(String[] args)
