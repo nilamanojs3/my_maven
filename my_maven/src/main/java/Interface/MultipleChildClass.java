@@ -1,6 +1,6 @@
 package Interface;
 
-public class MultipleChildClass implements InterParent1,InterParent2
+public  class MultipleChildClass implements InterParent1,InterParent2
 {
  public void show() 
  {
