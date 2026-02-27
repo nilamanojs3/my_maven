@@ -1,4 +1,4 @@
-package Abstraction;
+                                              package Abstraction;
 
 public class SampleAbs extends AbstractClassSample //definition passing 
 {
@@ -13,7 +13,7 @@ public class SampleAbs extends AbstractClassSample //definition passing
 	{
 		SampleAbs ob=new SampleAbs();
 		ob.display();
-		ob.print();
+		ob.print();                         
 
 	}
 
